@@ -1,7 +1,7 @@
 import AppPresenter from './presenter/app-presenter.js';
-import FilterView from './view/filters.js';
-import SortView from './view/sort.js';
-import EditFormView from './view/editForm.js';
+import FilterView from './view/filters-view.js';
+// import SortView from './view/sort.js';
+// import EditFormView from './view/editForm.js';
 import {render} from './render.js';
 
 const app = new AppPresenter();
