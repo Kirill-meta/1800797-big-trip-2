@@ -1,3 +1,4 @@
+
 import { editFormElement, filtersElement, sortElement } from '../elemenets.js';
 import { render } from '../render.js';
 import EditFormView from '../view/editForm-view.js';
@@ -24,5 +25,6 @@ export default class AppPresenter {
     for (let i = 0; i < 3; i++) {
       render(new PointView, this.sortView.getElement());
     }
+
   }
 }
