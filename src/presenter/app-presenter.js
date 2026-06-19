@@ -1,6 +1,6 @@
-import { editFormElement, filtersElement, sortElement } from '../elemenets.js';
+import { filtersElement, sortElement } from '../elemenets.js';
 import { render } from '../render.js';
-import EditFormView from '../view/editForm-view.js';
+import EditFormView from '../view/edit-form-view.js';
 import FilterView from '../view/filters-view.js';
 import FormView from '../view/form-view.js';
 import ListEventsView from '../view/list-events-view.js';
