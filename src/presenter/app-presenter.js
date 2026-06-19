@@ -24,5 +24,6 @@ export default class AppPresenter {
     for (let i = 0; i < 3; i++) {
       render(new PointView, this.sortView.getElement());
     }
+
   }
 }

@@ -1,3 +1,4 @@
+
 import AppPresenter from './presenter/app-presenter.js';
 import FilterView from './view/filters-view.js';
 // import SortView from './view/sort.js';
@@ -14,3 +15,4 @@ app.init();
 // render(new FilterView(), filter);
 // render(new SortView(), sort);
 // render(EditFormView(), editForm);
+
