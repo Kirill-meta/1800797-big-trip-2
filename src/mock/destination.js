@@ -1,53 +1,46 @@
-export const destinations = [
-  {
-    "id": "1",
-    "description": "Chamonix, is a beautiful city, a true asian pearl, with crowded streets.",
-    "name": "Chamonix",
-    "pictures": [
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Chamonix parliament building"
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "description": "Geneva, is a beautiful city, a true asian pearl, with crowded streets.",
-    "name": "Geneva",
-    "pictures": [
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Geneva parliament building"
-      },
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Geneva parliament building"
-      },
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Geneva parliament building"
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "description": "Amsterdam, is a beautiful city, a true asian pearl, with crowded streets.",
-    "name": "Amsterdam",
-    "pictures": [
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Amsterdam parliament building"
-      },
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Amsterdam parliament building"
-      },
-      {
-        "src": "http://picsum.photos/300/200?r=0.0762563005163317",
-        "description": "Amsterdam parliament building"
-      }
-    ]
-  },
 
-
-]
+export const mockDestination = [
+  {
+    id: '1',
+    name: 'Paris',
+    description:
+      'The capital of France, famous for the Eiffel Tower, world-class museums, charming cafés, and romantic atmosphere.',
+    pictures: [
+      {
+        src: 'img/photos/1.jpg',
+        description: 'View of Paris'
+      },
+      {
+        src: 'img/photos/2.jpg',
+        description: 'Street in Paris'
+      },
+      {
+        src: 'img/photos/3.jpg',
+        description: 'Paris landmarks'
+      }
+    ]
+  },
+  {
+    id: '2',
+    name: 'Tokyo',
+    description:
+      'Japan’s vibrant capital, where futuristic skyscrapers, ancient temples, delicious cuisine, and unique culture come together.',
+    pictures: []
+  },
+  {
+    id: '3',
+    name: 'New York',
+    description:
+      'The largest city in the United States, known for Times Square, Central Park, Broadway, and its iconic skyline.',
+    pictures: [
+      {
+        src: 'img/photos/3.jpg',
+        description: 'New York skyline'
+      },
+      {
+        src: 'img/photos/2.jpg',
+        description: 'Street view of New York'
+      }
+    ]
+  }
+];
